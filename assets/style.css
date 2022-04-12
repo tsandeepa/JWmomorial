@@ -40,6 +40,7 @@ body, html{
     padding: 70px 90px;
     position: relative;
     z-index: 1;
+    text-shadow: -4px 1px 25px rgb(14 64 115 / 59%);
 }
 
 .im-bg{
@@ -55,9 +56,11 @@ body, html{
 }
 
 .wlecome-text{
-    position: absolute;
-    left: 0;
-    padding: 58px 0;
+    position: fixed;
+    right: 0;
+    padding: 30px 70px;
+    top: 0;
+    text-align: right;
 }
 
 .wlecome-text img{
