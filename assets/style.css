@@ -35,7 +35,7 @@ h2,p{
     font-family: 'rb-medium', sans-serif;
     line-height: 1;
     color: #22272b;
-    font-size: 5em;
+    font-size: 6em;
 }
 
 #jDate{
@@ -68,6 +68,7 @@ h2,p{
     font-size: 2.5em;
 }
 .mt-text{
+    margin-top: 0 !important;
     font-size: 2em;
 }
 .font-rob{
@@ -77,6 +78,7 @@ h2,p{
 .tag-line{
     line-height: 1.5;
     font-size: 1.6em;
+    margin-bottom: 15px;
 }
 .wlecome-text{
     font-family: "FM_Malithi";
