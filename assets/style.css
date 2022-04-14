@@ -13,6 +13,16 @@ body, html{
     src: url("/assets/fonts/Roboto-Bold.ttf");
 }
 
+@font-face {
+    font-family: "FM_Malithi";
+    src: url("/assets/fonts/7 FM_Malithi sinhala font by Aluth.com.ttf");
+}
+
+h2,p{
+    font-family: "FM_Malithi";
+
+}
+
 .container{
     height: 100%;
     background: #000000cc;
@@ -24,8 +34,8 @@ body, html{
 #jClock{
     font-family: 'rb-medium', sans-serif;
     line-height: 1;
-    color: #fff;
-    font-size: 100px;
+    color: #22272b;
+    font-size: 5em;
 }
 
 #jDate{
@@ -37,10 +47,10 @@ body, html{
 }
 
 .d-show{
-    padding: 70px 90px;
+    padding: 40px ;
     position: relative;
     z-index: 1;
-    text-shadow: -4px 1px 25px rgb(14 64 115 / 59%);
+    /* text-shadow: -4px 1px 25px rgb(14 64 115 / 59%); */
 }
 
 .im-bg{
@@ -54,24 +64,39 @@ body, html{
     height: 100%;
     object-fit: cover;
 }
+.title{
+    font-size: 2.5em;
+}
+.mt-text{
+    font-size: 2em;
+}
+.font-rob{
+    font-family: "rb-medium" !important;
 
+}
+.tag-line{
+    line-height: 1.5;
+    font-size: 1.6em;
+}
 .wlecome-text{
+    font-family: "FM_Malithi";
     position: fixed;
     right: 0;
-    padding: 30px 70px;
+    padding: 20px 40px;
     top: 0;
     text-align: right;
+    /* max-width: 400px; */
 }
 
 .wlecome-text img{
-    width: 60%;
+    width: 71%;
 }
 
 
 @media only screen and (max-width: 1238px) {
     .d-show{
         zoom: 0.8;
-        padding: 82px 35px;
+        padding: 40px;
     }
   }
 
